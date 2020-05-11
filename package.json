@@ -1,0 +1,14 @@
+{
+  "name": "blobcarmorning-reactor",
+  "version": "1.0.0",
+  "description": "Sees your blobcarmorning and raises you a blobcarmorning in response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karashiiro",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
