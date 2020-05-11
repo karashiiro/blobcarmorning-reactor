@@ -15,6 +15,7 @@ function getBlobCarMorning() {
 }
 
 async function onMessage(message) {
+	if (message.guild.id !== yourGuildId) return;
 	if (message.content.includes(":blobcarmorning:")) {
 		await message.react(blobcarmorning || getBlobCarMorning());
 	}
